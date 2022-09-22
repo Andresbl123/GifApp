@@ -12,6 +12,7 @@
       *ngFor="let history of historys"
       let
       i="index"
+      (click)="search(history)"
       >{{ history | titlecase }}</a
     >
   </div>

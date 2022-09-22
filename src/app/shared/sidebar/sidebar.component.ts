@@ -12,4 +12,9 @@ export class SidebarComponent {
   get historys() {
     return this.gifSercives.history;
   }
+
+  search(historial: string) {
+    //let valueHistorial = document.getElementById();
+    this.gifSercives.searchHistory(historial);
+  }
 }

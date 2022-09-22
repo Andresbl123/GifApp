@@ -1,5 +1,8 @@
 <div class="row">
-  <div *ngFor="let gif of results; let i = index" class="col-md-4 cols-ms-6">
+  <div
+    *ngFor="let gif of results; let i = index"
+    class="col-md-4 cols-ms-6 animate__animated animate__slower"
+  >
     <div class="card">
       <img
         [src]="gif.images.downsized_medium.url"
